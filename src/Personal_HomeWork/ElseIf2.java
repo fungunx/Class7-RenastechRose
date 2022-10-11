@@ -18,6 +18,7 @@ public class ElseIf2 {
     Scanner input = new Scanner(System.in);
     int sayi1,sayi2, sonuc; {
         System.out.println();
+
     }
 
 }
