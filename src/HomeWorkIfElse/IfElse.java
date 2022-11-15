@@ -1,6 +1,9 @@
 package HomeWorkIfElse;
 
 public class IfElse {
+    public IfElse(boolean b) {
+    }
+
     public static void main(String[] args) {
 //        double temp = 120;
 //        if (temp < 10) {

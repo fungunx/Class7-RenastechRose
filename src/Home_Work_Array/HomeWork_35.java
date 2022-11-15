@@ -2,7 +2,7 @@ package Home_Work_Array;
 
 import java.util.Scanner;
 
-public class HomeWork_35_New {
+public class HomeWork_35 {
 
     /*
   Write a code where user is being asked to enter a word,
@@ -20,6 +20,7 @@ public class HomeWork_35_New {
             if (word.length() < 3) {
                 continue;
             }
+            System.out.println("Word"+word);
             for (int j = 0; j < word.length() - 2; j++) {
                 String sub = word.substring(j, j + 3);
                 String reverse = "";

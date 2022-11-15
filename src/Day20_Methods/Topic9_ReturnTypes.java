@@ -1,3 +1,5 @@
+package Day20_Methods;
+
 import java.io.FilterOutputStream;
 
 public class Topic9_ReturnTypes {
@@ -22,7 +24,7 @@ public class Topic9_ReturnTypes {
         Access Modifiers Specifiers Return Type(String, Int, Object, Array, List) MethodName(Params){
         code block
 
-        return a value or a variable whichis the same data type with your return type
+        return a value or a variable which is the same data type with your return type
        }
          */
 

@@ -1,7 +1,5 @@
 package Day3_OperationsandStrings;
 
-import org.omg.CORBA.WStringSeqHelper;
-
 public class Topic2_Strings {
     public static void main(String[] args) {
 

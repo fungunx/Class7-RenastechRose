@@ -1,8 +1,5 @@
 package Day8_Scanners;
 
-import HomeWorkIfElse.IfElse;
-
-import javax.naming.Name;
 import java.util.Scanner;
 
 public class Topic3_ScannerExamples {
@@ -31,7 +28,7 @@ public class Topic3_ScannerExamples {
             if (Age1>Age2 && Age1>Age3) {
                 System.out.println(Age1 + "is oldest person in the group" + Name1);
             } else if(Age2>Age1 && Age2>Age3) {
-                System.out.println(Age1 + "is oldest person in the group" + Name2);
+                System.out.println(Age2 + "is oldest person in the group" + Name2);
             }else{  System.out.println(Age3 + "    is oldest person in the group:    " +Name3);
                 }
     }}
