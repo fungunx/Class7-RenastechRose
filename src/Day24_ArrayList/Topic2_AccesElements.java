@@ -29,6 +29,23 @@ public class Topic2_AccesElements {
             System.out.println(RandomWords.get(j));
             j++;
         }
+        System.out.println("************************************************************");
+
+        int IndexOfElastic = RandomWords.indexOf("elastic");
+        System.out.println(IndexOfElastic);
+        int IndexOfHayri = RandomWords.indexOf("Hayri");
+        if (IndexOfHayri > -1){
+            System.out.println("We have Hayri in the ArrayList");
+        }else {
+            System.out.println("We don't have Hayri in the ArrayList");
+        }
+        boolean DoweHaveBulgurInArrayList = RandomWords.contains("bulgur");
+        System.out.println(DoweHaveBulgurInArrayList);
+        System.out.println("************************************************************");
+        System.out.println(RandomWords);
+
+        RandomWords.set(RandomWords.indexOf("elastic"),"chocolate");
+        System.out.println("Modified array list is: "+RandomWords);
 
     }
 }
