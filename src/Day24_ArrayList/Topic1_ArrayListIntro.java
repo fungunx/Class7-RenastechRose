@@ -45,6 +45,8 @@ public class Topic1_ArrayListIntro {
 
 
         System.out.println(MyNewArray);
+        MyNewArray.add(0,11);
+        System.out.println(MyNewArray);
 
 
 
